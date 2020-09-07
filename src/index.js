@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const str = 'こんにちは、世界!<br/>さようなら、私'
+const url = 'https://wings.msn.to'
   ReactDOM.render(
-    <p dangerouslySetInnerHTML={{__html: str}}></p>,
+    <a href={url}>サポートサイト</a>,
     document.getElementById('root')
   );  
 
