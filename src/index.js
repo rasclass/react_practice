@@ -4,13 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const name = '山田'
+const str = 'こんにちは、世界!<br/>さようなら、私'
   ReactDOM.render(
-    <div>
-      <p>名前は、{'$' + name + '$'}</p>
-      <p>現在の日時は、{new Date().toLocaleString()}です。</p>
-      <p>2の3乗は、{2 **3 }</p>
-    </div>,
+    <p dangerouslySetInnerHTML={{__html: str}}></p>,
     document.getElementById('root')
   );  
 
