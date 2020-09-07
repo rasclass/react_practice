@@ -4,9 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const style = {color:'Red', backgroundColor:'Yellow'};
+const attrs={
+  src: 'http://www.wings.msn.to/image/wings.jpg',
+  alt:'',
+  title: 'WINGSプロジェクト'
+};
 ReactDOM.render(
-  <p style={style}>WINGSプロジェクト</p>,
+  <img {...attrs} />,
   document.getElementById('root')
 );  
 
