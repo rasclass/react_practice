@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyProp from './MyProp'
+import MyProp, {Member} from './MyProp'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <MyProp prop2="hoge"/>,
+  <MyProp prop3={new Member()} />,
   document.getElementById('root')
 );  
 

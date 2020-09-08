@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import PropTypes from 'prop-types';
 
-export class Member{}
+export class Member { }
 
 export default class MyProp extends Component{
     render() {
@@ -9,6 +9,7 @@ export default class MyProp extends Component{
         return <p>結果はコンソールを確認してください。</p>
     }
 }
+
 MyProp.propTypes = {
     prop1: PropTypes.instanceOf(Member),
     prop2: PropTypes.oneOf(['男', '女', '不明' ]),
