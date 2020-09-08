@@ -1,19 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyType from './MyType'
+import MyAttrMulti from './MyAttrMulti'
 import * as serviceWorker from './serviceWorker';
 
+const data = {
+  name: '山田権左衛門',
+  age : 18,
+  sex:'男',
+};
+
 ReactDOM.render(
-  <div>
-    <MyType value="山田" />
-    <MyType value={'鈴木'} />
-    <MyType value={108} />
-    <MyType value={true} />
-    <MyType value={['うめ','もも', 'さくら']} />
-    <MyType value={{name:"山田太郎", age:40}} />
-    <MyType value={() => console.log("Hoge")} />
-  </div>,
+  <MyAttrMulti {...data} />,
   document.getElementById('root')
 );  
 
