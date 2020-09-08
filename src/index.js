@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyProp, {Member} from './MyProp'
+import MyHelloDef from './MyHelloDef'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <MyProp prop5={{age: 40, sex:'男'}} />,
+  <MyHelloDef />,
   document.getElementById('root')
 );  
 
