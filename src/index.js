@@ -5,7 +5,7 @@ import MyProp, {Member} from './MyProp'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <MyProp prop4={[1000, '梅']} />,
+  <MyProp prop5={{age: 40, sex:'男'}} />,
   document.getElementById('root')
 );  
 
