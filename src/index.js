@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyHelloDef from './MyHelloDef'
+import MyHello from './MyHello'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <MyHelloDef />,
+  <MyHello />,
   document.getElementById('root')
 );  
 
