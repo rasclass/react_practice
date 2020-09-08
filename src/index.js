@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyAttrMulti from './MyAttrMulti'
+import MyHelloContent from './MyHelloContent'
 import * as serviceWorker from './serviceWorker';
 
-const data = {
-  name: '山田権左衛門',
-  age : 18,
-  sex:'男',
-};
-
 ReactDOM.render(
-  <MyAttrMulti {...data} />,
+  <MyHelloContent>
+    <b>山田</b>
+  </MyHelloContent>,
   document.getElementById('root')
 );  
 
