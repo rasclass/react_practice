@@ -5,7 +5,7 @@ import MyProp from './MyProp'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <MyProp prop1="hoge"/>,
+  <MyProp prop2="hoge"/>,
   document.getElementById('root')
 );  
 
