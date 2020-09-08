@@ -1,18 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyBook from './MyBook'
+import MyHello from './MyHello'
 import * as serviceWorker from './serviceWorker';
 
-const book = {
-  isbn:'WGS-JST-001',
-  title:'速習 webpack',
-  price: 454,
-  published:'WINGSプロジェクト'
-};
-
 ReactDOM.render(
-  <MyBook info={book} />,
+  <MyHello/>,
   document.getElementById('root')
 );  
 
