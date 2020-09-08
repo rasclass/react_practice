@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MyHello from './MyHello'
 import * as serviceWorker from './serviceWorker';
 
-const attrs={
-  src: 'http://www.wings.msn.to/image/wings.jpg',
-  alt:'',
-  title: 'WINGSプロジェクト'
-};
 ReactDOM.render(
-  <img {...attrs} />,
+  <MyHello name="山田"/>,
   document.getElementById('root')
 );  
 
