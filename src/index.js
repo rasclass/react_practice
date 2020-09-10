@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import MyParent from './MyParent'
+import MyForm from './MyForm'
 
 ReactDOM.render(
-  <MyParent />,
+  <MyForm />,
   document.getElementById('root')
 );  
 
