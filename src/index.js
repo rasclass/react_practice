@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import MyFormUn from './MyFormUn'
+import MyTextarea from './MyTextarea'
 
 ReactDOM.render(
-  <MyFormUn />,
+  <MyTextarea />,
   document.getElementById('root')
 );  
 
