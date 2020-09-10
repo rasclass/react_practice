@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import MyPool from './MyPool'
+import MyState from './MyState'
 
 ReactDOM.render(
-  <MyPool />,
+  <MyState />,
   document.getElementById('root')
 );  
 
