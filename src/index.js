@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import MyState from './MyState'
+import MyParent from './MyParent'
 
 ReactDOM.render(
-  <MyState />,
+  <MyParent />,
   document.getElementById('root')
 );  
 
