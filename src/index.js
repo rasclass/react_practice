@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import MyEvent from './MyEvent'
+import MyPool from './MyPool'
 
 ReactDOM.render(
-  <MyEvent greet="Hello" />,
+  <MyPool />,
   document.getElementById('root')
 );  
 
