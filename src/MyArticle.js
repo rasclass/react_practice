@@ -2,6 +2,12 @@ import React, {Component} from 'react';
 import MyNew from './MyNew'
 
 export default class MyArticle extends Component{
+    renderIfNew(isNew){
+        if(isNew){
+            return <MyNew />
+        }
+    }
+
     render(){
         return(
             <React.Fragment>
@@ -9,11 +15,7 @@ export default class MyArticle extends Component{
                 <a href={this.props.url}>
                     {this.props.title}
                 </a>
-                {(() => {
-                    if(this.props.isNew){
-                        return <MyNew />
-                    }
-                })()}
+                {this.renderIfNew(this.props.isNew)}
             </dt>
             <dd>
                 {this.props.description}
