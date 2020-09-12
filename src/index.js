@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import MyList from './MyList'
+import MyRadio from './MyRadio'
 
 ReactDOM.render(
-  <MyList />,
+  <MyRadio />,
   document.getElementById('root')
 );  
 
