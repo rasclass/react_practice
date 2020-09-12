@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import MyTextarea from './MyTextarea'
+import MySelect from './MySelect'
 
 ReactDOM.render(
-  <MyTextarea />,
+  <MySelect />,
   document.getElementById('root')
 );  
 
