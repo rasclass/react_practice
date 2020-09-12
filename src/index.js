@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import MyCheckMulti from './MyCheckMulti'
+import MyFile from './MyFile'
 
 ReactDOM.render(
-  <MyCheckMulti />,
+  <MyFile />,
   document.getElementById('root')
 );  
 
