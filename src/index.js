@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import MyFile from './MyFile'
+import MyLife from './MyLife'
 
 ReactDOM.render(
-  <MyFile />,
+  <MyLife />,
   document.getElementById('root')
 );  
 
