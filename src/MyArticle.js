@@ -1,27 +1,11 @@
 import React, {Component} from 'react';
-import MyNew from './MyNew'
 
 export default class MyArticle extends Component{
-    renderIfNew(isNew){
-        if(isNew){
-            return <MyNew />
-        }
-    }
-
     render(){
+        const id = this.props.match.params.id;
         return(
-            <React.Fragment>
-            <dt>
-                <a href={this.props.url}>
-                    {this.props.title}
-                </a>
-                {this.renderIfNew(this.props.isNew)}
-            </dt>
-            <dd>
-                {this.props.description}
-            </dd>
-        </React.Fragment>
-
+            <div>No.{id}の記事情報です！</div>
+            
         );
     }
 }
